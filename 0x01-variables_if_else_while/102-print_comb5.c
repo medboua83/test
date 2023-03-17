@@ -12,7 +12,7 @@ int main(void)
 	int x;
 	int z;
 
-	for (i = 48 ; i <= 56 ; i++)
+	for (i = 48 ; i <= 57 ; i++)
 	{
 		for (y = 48 ; y <= 57 ; y++)
 		{
