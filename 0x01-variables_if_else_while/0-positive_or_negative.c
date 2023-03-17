@@ -2,7 +2,11 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
+/**
+   * main - checks if positive, zero or negative
+   *
+   *Return: zero
+   */
 /* betty style doc for function main goes there */
 int main(void)
 {
