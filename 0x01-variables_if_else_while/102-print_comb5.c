@@ -29,9 +29,9 @@ int main(void)
 						putchar(z);
 						if (!(i == 57 && y == 56 && x == 57 && z == 57))
 						{
-                                                	putchar(',');
-                                                	putchar(' ');
-                                        	}
+							putchar(',');
+							putchar(' ');
+						}
 					
 					}
 				}
