@@ -7,10 +7,7 @@
  */
 int main(void)
 {
-	int i;
-	int y;
-	int x;
-	int z;
+	int i,y,x,z;
 
 	for (i = 48 ; i <= 57 ; i++)
 	{
