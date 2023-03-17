@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - using putchar to print alphabets
+ * main - Hexadecimal
  *
  * Return: zero
  */
@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (i = 97 ; i<= 102 ; i++)
+	for (i = 97 ; i <= 102 ; i++)
 	{
 		putchar(i);
 	}
