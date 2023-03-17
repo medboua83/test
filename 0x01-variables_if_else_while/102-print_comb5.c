@@ -24,11 +24,11 @@ int main(void)
 						putchar(' ');
 						putchar(x);
 						putchar(z);
-						if (!((i == 57) && (y == 56)))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					}
+					if (!((i == 57) && (y == 56)))
+					{
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
