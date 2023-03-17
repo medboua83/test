@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, y, x, z;
+	int i, y, x, z, suma, sumb;
 
 	for (i = 48 ; i <= 57 ; i++)
 	{
@@ -17,7 +17,10 @@ int main(void)
 			{
 				for (z = 48 ; z <= 57 ; z++)
 				{
-					if ((((i - 48) * 10) + (y - 48)) < (((x - 48) * 10) + (z - 48)))
+					suma = (((i - 48) * 10) + (y - 48));
+					sumb = (((x - 48) * 10) + (z - 48));
+
+					if (suma < sumb)
 					{
 						putchar(i);
 						putchar(y);
@@ -25,7 +28,7 @@ int main(void)
 						putchar(x);
 						putchar(z);
 					}
-					if (((((i - 48) * 10) + (y - 48)) < (((x - 48) * 10) + (z - 48))) && !((i == 57) && (y == 56)))
+					if ((suma < sumb) && !((i == 57) && (y == 56)))
 					{
 						putchar(',');
 						putchar(' ');
