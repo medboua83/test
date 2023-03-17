@@ -25,7 +25,7 @@ int main(void)
 						putchar(x);
 						putchar(z);
 					}
-					if (!((i == 57) && (y == 56)))
+					if (((((i - 48) * 10) + (y - 48)) < (((x - 48) * 10) + (z - 48))) && !((i == 57) && (y == 56)))
 					{
 						putchar(',');
 						putchar(' ');
