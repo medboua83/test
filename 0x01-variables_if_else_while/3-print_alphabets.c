@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	putchar(10);
+	putchar('$');
 	return (0);
 
 }
