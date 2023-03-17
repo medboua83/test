@@ -13,8 +13,9 @@ int main(void)
 
 	for (i = 48 ; i <= 56 ; i++)
 	{
-		for (y = 48 ; y <= 57 ; y++ )
-		{ if (i < y)
+		for (y = 48 ; y <= 57 ; y++)
+		{ 
+			if (i < y)
 			{
 				if (!(i == 48 && y == 48))
 				{
