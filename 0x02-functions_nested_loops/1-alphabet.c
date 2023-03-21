@@ -13,9 +13,9 @@ int main(void)
 
                 for (i = 97 ; i <= 122 ; i++)
                 {
-                        _puthcar(i);
+                        _putchar(i);
                 }
-                putchar('\n');
+                _putchar('\n');
 	}
 
 	print_alphabet();
