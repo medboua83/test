@@ -2,7 +2,12 @@
 
 
 /**
- * int _islower - Write a function that checks for lowercase character.
+ * int _islower:  Write a function that checks for lowercase character.
+ * main - Entry point
+ *
+ * c : code asci 
+ *
+ * Return: Always 1 if the letter is lowercase , 0 if else 
  */
 
 
