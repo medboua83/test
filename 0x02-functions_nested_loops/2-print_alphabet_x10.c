@@ -2,7 +2,7 @@
 
 /**
  * 10x print_alphabet - Entry point
- * Return:0
+ * Return:
  */
 
 void print_alphabet_x10(void)
