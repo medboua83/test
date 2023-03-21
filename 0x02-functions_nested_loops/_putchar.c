@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Patience, persistence and perspiration
@@ -6,11 +7,10 @@
  *
  * Return: zero
  */
-int main(void)
+
+
+int _putchar(int c)
 {
-	int _putchar(int c)
-	{
-		return putchar(c)
-	}
-	return (0);
+	return putchar(c)
 }
+	
