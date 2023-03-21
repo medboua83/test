@@ -1,23 +1,17 @@
-#include "main.h"
-#include <stdio.h>
+#include "print_alphabet.h"
 
 /**
- * main - Patience, persistence and perspiration
- * make an unbeatable combination for success
+ * main - check the code
  *
- * Return: zero
+ * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
-	{
-		int i;
+        int i;
 
-		for (i = 97 ; i <= 122 ; i++)
-		{
-			_puthcar(i);
-		}
-		putchar('\n')
-	}
-	return (0);
+        for (i = 97 ; i <= 122 ; i++)
+        {
+                _putchar(i);
+        }
+        _putchar('\n');
 }
