@@ -8,7 +8,6 @@
 
 int _islower(int c)
 {
-	int i;
 
 	if (c >= 97 && c <= 122)
 	{
